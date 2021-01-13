@@ -22,7 +22,7 @@ defmodule ExMon.Game.Status do
   end
 
   def print_wrong_move_message(move) do
-    IO.puts("Movimento #{move} invalido")
+    IO.puts("Movimento invalido #{move}")
   end
 
   # quando o player atacar o computador
